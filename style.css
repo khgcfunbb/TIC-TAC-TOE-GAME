@@ -1,0 +1,59 @@
+
+body{
+    background-color: rgb(56, 44, 44);
+}
+
+.parent{
+    height: 300px;
+    width: 300px;
+    /* border:2px solid black; */
+    margin: auto;
+    margin-top: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    height:98px;
+    width: 98px;
+    cursor: pointer;
+    font-size: 63px;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.7);
+    border-radius: 1vw;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 54px;
+    color: white;
+    visibility: hidden;
+}
+.bbox{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.bbox #reset{
+    height: 44px;
+    width: 111px;
+    cursor: pointer;
+
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: white;
+}
+
+

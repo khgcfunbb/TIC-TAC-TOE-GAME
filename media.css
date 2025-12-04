@@ -1,0 +1,54 @@
+@media (min-width:200px) and (max-width:800px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    body {
+        background-color: burlywood;
+
+    }
+
+    .top {
+        height: 10vh;
+        width: 100vw;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top p {
+        color: black;
+        font-size: 8vw;
+        margin-left: 0px;
+        text-decoration: underline;
+    }
+
+    .parent {
+        background-color: red;
+        background-color: burlywood;
+        width: 345px;
+        height: 345px;
+
+    }
+
+    .box {
+        width: 110px;
+        height: 110px;
+    }
+
+    .bbox {
+        width: 100vw;
+        height: max-content;
+        display: flex;
+    }
+
+    #reset {
+        border-radius: 1vw;
+        outline: none;
+        border: 1px solid white;
+        font-weight: bolder;
+    }
+}
