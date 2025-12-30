@@ -27,7 +27,6 @@
     }
 
     .parent {
-        background-color: red;
         background-color: burlywood;
         width: 345px;
         height: 345px;
@@ -53,3 +52,4 @@
     }
 
 }
+
